@@ -19,4 +19,8 @@
     <ProjectReference Include="..\Ecommerce.Web\Ecommerce.Web.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Database\" />
+  </ItemGroup>
+
 </Project>

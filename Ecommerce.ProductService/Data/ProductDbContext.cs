@@ -1,7 +1,7 @@
 ﻿using Ecommerce.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace Ecommerce.OrderService.Data
+namespace Ecommerce.ProductService.Data
 {
     public class ProductDbContext : DbContext
     {

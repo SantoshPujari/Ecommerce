@@ -1,3 +1,4 @@
+
 using Ecommerce.OrderService.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ProductDbContext>(option => option.UseSqlServer(""));
+builder.Services.AddDbContext<OrderDbContext>(option => option.UseSqlServer("Server=localhost;Database=EcommerceOrder;Trusted_Connection=True;TrustServerCertificate=True"));
 
 var app = builder.Build();
 
